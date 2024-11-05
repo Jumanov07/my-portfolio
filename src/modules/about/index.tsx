@@ -44,7 +44,7 @@ const About = () => (
       !
     </p>
 
-    <p className="text-slate-400">
+    <p className="text-slate-400 mt-4">
       At the moment, I’m developing the accessible and intuitive gaming
       education platform
       <Link
@@ -71,7 +71,7 @@ const About = () => (
       knowledge is real power!
     </p>
 
-    <p className="text-slate-400">
+    <p className="text-slate-400 mt-4">
       When I’m not at my computer, you can find me volunteering, playing soccer,
       immersed in reading books, meditating, or spending time with friends. I
       also love to attend workshops to soak up all the useful knowledge like a
