@@ -1,3 +1,4 @@
+import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -13,6 +14,8 @@ export const metadata: Metadata = {
   },
 };
 
+const fontFamily = Inter({ subsets: ["latin"] });
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -20,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={fontFamily.className}>{children}</body>
     </html>
   );
 }

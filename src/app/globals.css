@@ -5,7 +5,6 @@
 body {
   background-color: #10172a;
   color: white;
-  overflow: hidden;
 }
 
 .cursor {
@@ -22,4 +21,18 @@ body {
   );
   z-index: 9999;
   transition: background-position 0.1s;
+}
+
+p {
+  color: rgb(148 163 184 / 1);
+}
+
+.section-title {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    display: none;
+  }
 }

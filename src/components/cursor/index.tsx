@@ -9,7 +9,7 @@ const Cursor = () => {
     document.body.appendChild(cursorLight);
 
     const handleMouseMove = (e: MouseEvent) => {
-      cursorLight.style.background = `radial-gradient(circle 800px at ${e.clientX}px ${e.clientY}px, rgba(29, 78, 216, 0.15), transparent 85%)`;
+      cursorLight.style.background = `radial-gradient(circle 600px at ${e.clientX}px ${e.clientY}px, rgba(29, 78, 216, 0.15), transparent 80%)`;
     };
 
     document.addEventListener("mousemove", handleMouseMove);
