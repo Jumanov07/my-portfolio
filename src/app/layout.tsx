@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,7 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fontFamily.className}>{children}</body>
+      <body className={fontFamily.className}>
+        {children}
+
+        <Analytics />
+      </body>
     </html>
   );
 }
