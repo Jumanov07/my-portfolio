@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="flex flex-col gap-12 group/list">
         {PROJECTS.map(({ id, image, title, link, description, tools }) => (
           <Link href={link} key={id} target="_blank">
-            <div className="flex items-start flex-col-reverse sm:flex-row gap-4 lg:p-4 rounded-md transition duration-200 hover:bg-slate-800 group group-hover/list:opacity-50 hover:!opacity-100">
+            <div className="flex items-start flex-col-reverse sm:flex-row gap-4 lg:p-4 rounded-md transition duration-200 sm:hover:bg-slate-800 group group-hover/list:opacity-50 hover:!opacity-100">
               <Image
                 style={{
                   width: 120,
