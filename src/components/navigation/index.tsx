@@ -87,7 +87,7 @@ const Navigation = () => {
         ))}
       </ul>
 
-      <ul className="mt-10 p-4 bg-[rgba(81,200,190,0.03)] rounded-lg shadow-md text-slate-200 text-sm flex flex-col gap-1">
+      <ul className="mt-10 p-4 bg-slate-800 rounded-lg shadow-md text-slate-200 text-sm flex flex-col gap-1">
         <li>
           <Link href="tel:+966551130187" className="hover:text-[#51c8be] w-max">
             +966 551 130 187
@@ -104,6 +104,7 @@ const Navigation = () => {
         <li>
           <Link
             href="https://2gis.kg/bishkek?m=74.553811%2C42.873155%2F11"
+            target="_blank"
             className="hover:text-[#51c8be] w-max"
           >
             Bishkek, Kyrgyzstan

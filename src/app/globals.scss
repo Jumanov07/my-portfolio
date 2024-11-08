@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #10172a;
   color: white;
@@ -25,14 +29,4 @@ body {
 
 p {
   color: rgb(148 163 184 / 1);
-}
-
-.section-title {
-  display: block;
-}
-
-@media (min-width: 1024px) {
-  .section-title {
-    display: none;
-  }
 }

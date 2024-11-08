@@ -2,12 +2,7 @@ import Link from "next/link";
 
 const About = () => (
   <section id="about" className="flex flex-col gap-4 font-light">
-    <h2
-      style={{
-        marginBottom: "2.25rem",
-      }}
-      className="section-title text-sm font-bold tracking-widest text-slate-200"
-    >
+    <h2 className="lg:hidden mb-9 text-sm font-bold tracking-widest text-slate-200">
       ABOUT
     </h2>
 
@@ -15,8 +10,8 @@ const About = () => (
       Back in 2022, I immersed myself in learning programming at
       <Link
         href="https://www.instagram.com/peaksoft.house/"
-        className="text-slate-200 hover:text-[#51c8be]"
-        style={{ fontWeight: 500 }}
+        target="_blank"
+        className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
         Peaksoft House{" "}
@@ -26,8 +21,8 @@ const About = () => (
       exciting fields, including
       <Link
         href="https://go.codifylab.com/"
-        className="text-slate-200 hover:text-[#51c8be]"
-        style={{ fontWeight: 500 }}
+        target="_blank"
+        className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
         learning platforms
@@ -35,8 +30,8 @@ const About = () => (
       , online stores, the medical field, hotel booking systems, and
       <Link
         href="https://letscodify.io/"
-        className="text-slate-200 hover:text-[#51c8be]"
-        style={{ fontWeight: 500 }}
+        target="_blank"
+        className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
         job platform
@@ -49,8 +44,8 @@ const About = () => (
       education platform
       <Link
         href="https://go.codifylab.com/"
-        className="text-slate-200 hover:text-[#51c8be]"
-        style={{ fontWeight: 500 }}
+        target="_blank"
+        className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
         Codify GO{" "}
@@ -58,8 +53,8 @@ const About = () => (
       at{" "}
       <Link
         href="https://dev.codifylab.com/"
-        className="text-slate-200 hover:text-[#51c8be]"
-        style={{ fontWeight: 500 }}
+        target="_blank"
+        className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
         Codify Lab

@@ -18,7 +18,7 @@ export default function Home() {
             </h1>
 
             <h2 className="mt-3 text-lg tracking-tight text-slate-200 sm:text-xl">
-              Frontend Engineer
+              Frontend Engineer 2+ Years Experience
             </h2>
 
             <p className="mt-4 max-w-xs leading-normal font-light">
