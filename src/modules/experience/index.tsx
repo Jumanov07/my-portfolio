@@ -29,6 +29,15 @@ const Experience = () => {
           )
         )}
       </div>
+
+      <Link
+        href="/resume.pdf"
+        target="_blank"
+        className="mt-12 w-fit flex items-center gap-1 text-slate-200 leading-tight group hover:text-[#51c8be] transition-colors duration-200"
+      >
+        View Full Resume
+        <MdOutlineArrowOutward className="ml-1 transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-[#51c8be] text-slate-200" />
+      </Link>
     </section>
   );
 };

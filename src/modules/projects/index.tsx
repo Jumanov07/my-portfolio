@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { MdOutlineArrowOutward } from "react-icons/md";
+import { MdOutlineArrowOutward, MdOutlineArrowForward } from "react-icons/md";
 import { PROJECTS } from "@/utils/constants";
 
 const Projects = () => {
@@ -74,6 +74,17 @@ const Projects = () => {
           </Link>
         ))}
       </div>
+
+      <Link
+        href="/all-projects"
+        className="mt-12 w-fit flex items-center gap-1 text-slate-200 leading-tight group relative"
+      >
+        <span className="relative after:absolute after:bottom-[-2px] after:left-0 after:w-full after:h-[2px] after:bg-transparent after:transition-all after:duration-200 group-hover:after:bg-[#51c8be]">
+          View All Projects
+        </span>
+
+        <MdOutlineArrowForward className="ml-1 transition-transform duration-200 group-hover:translate-x-2 text-slate-200" />
+      </Link>
     </section>
   );
 };
