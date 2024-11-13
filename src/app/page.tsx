@@ -35,6 +35,8 @@ export default function Home() {
           <Experience />
           <Projects />
         </aside>
+
+        
       </main>
 
       <Cursor />

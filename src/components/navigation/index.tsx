@@ -105,6 +105,7 @@ const Navigation = () => {
           <Link
             href="https://2gis.kg/bishkek?m=74.553811%2C42.873155%2F11"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-[#51c8be] w-max"
           >
             Bishkek, Kyrgyzstan

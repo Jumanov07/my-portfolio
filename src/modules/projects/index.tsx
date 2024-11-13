@@ -15,10 +15,6 @@ const Projects = () => {
           <Link href={link} key={id} target="_blank">
             <div className="flex items-start flex-col-reverse sm:flex-row gap-4 lg:p-4 rounded-md transition duration-200 sm:hover:bg-slate-800 group group-hover/list:opacity-50 hover:!opacity-100">
               <Image
-                style={{
-                  width: 120,
-                  height: 60,
-                }}
                 width={120}
                 height={60}
                 src={image}
@@ -85,6 +81,70 @@ const Projects = () => {
 
         <MdOutlineArrowForward className="ml-1 transition-transform duration-200 group-hover:translate-x-2 text-slate-200" />
       </Link>
+
+      <p className="pb-16 text-sm text-slate-500 sm:pb-0 mt-16 md:mt-24 lg:mt-36">
+        Loosely designed in
+        <Link
+          href="https://www.figma.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-slate-200 hover:text-[#51c8be]"
+        >
+          {" "}
+          Figma{" "}
+        </Link>
+        and coded in
+        <Link
+          href="https://code.visualstudio.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-slate-200 hover:text-[#51c8be]"
+        >
+          {" "}
+          Visual Studio Code{" "}
+        </Link>
+        by yours truly. Built with
+        <Link
+          href="https://nextjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-slate-200 hover:text-[#51c8be]"
+        >
+          {" "}
+          Next.js{" "}
+        </Link>
+        and
+        <Link
+          href="https://tailwindcss.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-slate-200 hover:text-[#51c8be]"
+        >
+          {" "}
+          Tailwind CSS
+        </Link>
+        , deployed with{" "}
+        <Link
+          href="https://rsms.me/inter/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-slate-200 hover:text-[#51c8be]"
+        >
+          {" "}
+          Vercel
+        </Link>
+        . All text is set in the
+        <Link
+          href="https://rsms.me/inter/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-slate-200 hover:text-[#51c8be]"
+        >
+          {" "}
+          Inter{" "}
+        </Link>
+        typeface.
+      </p>
     </section>
   );
 };

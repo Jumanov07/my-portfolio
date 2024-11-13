@@ -11,6 +11,7 @@ const About = () => (
       <Link
         href="https://www.instagram.com/peaksoft.house/"
         target="_blank"
+        rel="noopener noreferrer"
         className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
@@ -22,6 +23,7 @@ const About = () => (
       <Link
         href="https://go.codifylab.com/"
         target="_blank"
+        rel="noopener noreferrer"
         className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
@@ -31,6 +33,7 @@ const About = () => (
       <Link
         href="https://letscodify.io/"
         target="_blank"
+        rel="noopener noreferrer"
         className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
@@ -45,6 +48,7 @@ const About = () => (
       <Link
         href="https://go.codifylab.com/"
         target="_blank"
+        rel="noopener noreferrer"
         className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}
@@ -54,6 +58,7 @@ const About = () => (
       <Link
         href="https://dev.codifylab.com/"
         target="_blank"
+        rel="noopener noreferrer"
         className="font-medium text-slate-200 hover:text-[#51c8be]"
       >
         {" "}

@@ -12,7 +12,12 @@ const Experience = () => {
       <div className="flex flex-col gap-12 group/list">
         {JOBS.map(
           ({ id, title, company, link, startDate, endDate, description }) => (
-            <Link href={link} key={id} target="_blank">
+            <Link
+              href={link}
+              key={id}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="flex flex-col gap-2 lg:p-4 rounded-md transition duration-200 sm:hover:bg-slate-800 group group-hover/list:opacity-50 hover:!opacity-100">
                 <h3 className="w-fit flex items-center gap-1 text-slate-200 leading-tight group-hover:text-[#51c8be] transition-colors duration-200">
                   {title} {title && "at"} {company}
@@ -33,6 +38,7 @@ const Experience = () => {
       <Link
         href="/resume.pdf"
         target="_blank"
+        rel="noopener noreferrer"
         className="mt-12 w-fit flex items-center gap-1 text-slate-200 leading-tight group hover:text-[#51c8be] transition-colors duration-200"
       >
         View Full Resume
