@@ -71,3 +71,152 @@ export const PROJECTS = [
     ],
   },
 ];
+
+export const ALL_PROJECTS = [
+  {
+    id: 1,
+    year: "2024",
+    name: "Alpha Cargo",
+    link: "https://www.alpha-cargo.kg/",
+    tools: [
+      "React",
+      "TypeScript",
+      "Styled-Components",
+      "SASS",
+      "Redux-Toolkit",
+    ],
+    description:
+      "Transportation site providing cargo transportation, warehousing, and logistics services.",
+    made: "Freelance",
+  },
+  {
+    id: 2,
+    year: "2024",
+    name: "Codify GO",
+    link: "https://go.codifylab.com/",
+    tools: ["Next.js", "JavaScript", "SCSS", "Bootstrap", "Zustand"],
+    description:
+      "Educational platform offering courses in HTML, CSS, cybersecurity, and digital literacy.",
+    made: "Codify Lab",
+  },
+  {
+    id: 3,
+    year: "2024",
+    name: "Codify Academy",
+    link: "https://www.codifylab.com/",
+    tools: ["Svelte", "JavaScript", "CSS"],
+    description:
+      "Website for programming, design, and management courses for children and adults.",
+    made: "Codify Lab",
+  },
+  {
+    id: 4,
+    year: "2024",
+    name: "Codify Lab",
+    link: "https://dev.codifylab.com/",
+    tools: ["Next.js", "JavaScript", "Module CSS"],
+    description:
+      "Website providing information about IT services and development processes.",
+    made: "Codify Lab",
+  },
+  {
+    id: 5,
+    year: "2024",
+    name: "Codify Teens",
+    link: "https://teens.codifylab.com/",
+    tools: ["Next.js", "TypeScript", "Tailwind CSS"],
+    description:
+      "Website for a programming academy for children and teens with an application form.",
+    made: "Codify Lab",
+  },
+  {
+    id: 6,
+    year: "2024",
+    name: "Job Codify",
+    link: "https://letscodify.io/",
+    tools: ["Next.js", "JavaScript", "SCSS", "Redux Toolkit", "Zustand"],
+    description:
+      "Job search platform with AI assistance for cover letters and resumes.",
+    made: "Codify Lab",
+  },
+  {
+    id: 7,
+    year: "2024",
+    name: "Startup Nation",
+    link: "https://www.startupnation.asia/",
+    tools: ["Next.js", "JavaScript", "Bootstrap"],
+    description:
+      "Landing page for Central Asia’s largest hackathon with registration and event details.",
+    made: "Codify Lab",
+  },
+  {
+    id: 8,
+    year: "2024",
+    name: "Virtual Accelerate",
+    link: "https://www.virtualaccelerate.com/",
+    tools: ["React", "Next.js", "JavaScript", "SCSS", "Bootstrap", "Redux"],
+    description:
+      "Platform for automating accelerator and incubation program participation.",
+    made: "Codify Lab",
+  },
+  {
+    id: 9,
+    year: "2024",
+    name: "Shine",
+    link: "https://shinebeautyclinic.kg/",
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "RTK Query"],
+    description:
+      "Website for a plastic surgery clinic with admin panel and CRUD functionalities.",
+    made: "Freelance",
+  },
+  {
+    id: 10,
+    year: "2023",
+    name: "Peaksoft House",
+    link: "https://peaksoft.house/",
+    tools: ["Next.js", "JavaScript", "Module CSS"],
+    description:
+      "Course website allowing users to view, register for courses, and explore student projects.",
+    made: "Peaksoft House",
+  },
+  {
+    id: 11,
+    year: "2023",
+    name: "Bilingual",
+    link: null,
+    tools: ["React", "JavaScript", "MUI", "Styled-Components"],
+    description:
+      "Language test website with animations, voice assessment, and anti-cheat mechanisms.",
+    made: "Peaksoft House",
+  },
+  {
+    id: 12,
+    year: "2023",
+    name: "AirBNB Kyrgyzstan",
+    link: null,
+    tools: ["React", "JavaScript", "MUI", "Styled-Components"],
+    description:
+      "Platform for renting and selling accommodation with Google sign-in and feedback features.",
+    made: "Peaksoft House",
+  },
+  {
+    id: 13,
+    year: "2023",
+    name: "HealthCheck",
+    link: null,
+    tools: ["React", "JavaScript", "MUI", "Styled-Components"],
+    description:
+      "Medical platform offering online appointment booking and access to test results.",
+    made: "Peaksoft House",
+  },
+  {
+    id: 14,
+    year: "2023",
+    name: "Gadgetarium",
+    link: null,
+    tools: ["React", "JavaScript", "MUI", "Styled-Components"],
+    description:
+      "Online store for gadgets with shopping cart, order management, and secure payment.",
+    made: "Peaksoft House",
+  },
+];

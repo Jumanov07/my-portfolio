@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import Cursor from "@/components/cursor";
 
 export const metadata: Metadata = {
   title: "Alisher Jumanov",
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={fontFamily.className}>
         {children}
 
+        <Cursor />
         <Analytics />
       </body>
     </html>
