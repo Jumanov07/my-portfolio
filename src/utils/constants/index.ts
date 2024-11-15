@@ -13,17 +13,27 @@ export const JOBS = [
     startDate: "May 2024",
     endDate: "Present",
     description:
-      "Developed projects using JavaScript, React, Next.js, Svelte, Redux, Zustand, SWR, and Bootstrap. Created courses for the go.codifylab.com platform. Collected customer feedback and improved products based on it. Supported and developed new features for the projects: virtualaccelerate.com, codifylab.com, letscodify.io, and startupnation.asia.",
+      "Developed and supported projects using JavaScript, React, Next.js, Svelte, Redux, Zustand, SWR, and Bootstrap. Created 6 educational courses for the “go.codifylab.com” platform, improving website performance to 100% and accessibility to 95% through code and image optimization. Collected customer feedback to enhance products and implemented new features for platforms such as virtualaccelerate.com, codifylab.com, letscodify.io, and startupnation.asia. Designed and developed interactive features, including dynamic sliders, FAQ accordions, Yandex Maps integration, and Instagram post embeds. Built a multi-file code editor with live preview and robust form validation, including phone number masking. Optimized platforms by fixing bugs, adding new features, and improving the user experience. Additionally, developed admin tools like a file management library and breadcrumb navigation systems to enhance usability.",
   },
   {
     id: 2,
+    title: "",
+    company: "Freelance",
+    link: null,
+    startDate: "Jan 2023",
+    endDate: "Present",
+    description:
+      "Developed custom landing pages and web applications with a focus on performance, responsiveness, and user-centric design. Managed projects from concept to deployment, including coding, optimization, and backend integration. Implemented secure login and registration features with SMS authentication, enhancing accessibility. Designed and built admin panels with CRUD operations, user-friendly forms, and media upload functionality. Improved user experience by optimizing introductory pages, creating order fulfillment tracking systems, and proactively resolving bugs. Developed dynamic pages for managing records, jobs, news, reviews, and categories with robust editing capabilities. Continuously enhanced platforms based on client feedback, adding features to align with business goals and improve usability.",
+  },
+  {
+    id: 3,
     title: "",
     company: "Peaksoft House",
     link: "https://www.instagram.com/peaksoft.house/",
     startDate: "Jan 2023",
     endDate: "Apr 2024",
     description:
-      "Developed projects such as Gadgetarium, Bilingual, AirBNB, Health Check, and peaksoft.house using JavaScript, TypeScript, React, Next.js, Redux, and Material UI. Created landing pages and worked on other projects for the company, ensuring they met business goals and requirements. Maintained a positive and collaborative attitude, actively contributing to a supportive and productive team environment. Actively pursued opportunities to expand frontend development skills and knowledge. Taught HTML, CSS, JavaScript, and React to students from beginner to advanced levels. Enhanced students’ programming skills through personalized feedback and support. Fostered a positive and inclusive learning environment that encouraged collaboration and creativity. Collaborated with colleagues to develop and improve instructional materials.",
+      "Developed and delivered projects such as Gadgetarium, Bilingual, AirBNB, Health Check, and peaksoft.house using JavaScript, TypeScript, React, Next.js, Redux, and Material UI. Created and maintained landing pages and other projects, ensuring alignment with business goals and client requirements. Built secure authentication systems with Google sign-in and implemented dynamic features like shopping carts, filtering, and interactive UI components. Designed an Excel and PDF management system for appointment tracking and integrated the Google Maps API for location-based services. Improved platform performance and user experience by implementing animations with Framer Motion and optimizing functionality. Taught HTML, CSS, JavaScript, and React to students across all skill levels, fostering a positive learning environment and encouraging collaboration. Designed and enhanced instructional materials in collaboration with colleagues. Designed and implemented fully responsive frontend architectures with Stripe integration for secure online payments, ensuring seamless user experiences. Proactively contributed to a collaborative team environment and actively supported professional growth.",
   },
 ];
 
