@@ -120,6 +120,7 @@ const Navigation = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-slate-200"
+            aria-label="Telegram"
           >
             <FaTelegramPlane size={28} />
           </Link>
@@ -130,6 +131,7 @@ const Navigation = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-slate-200"
+            aria-label="Telegram"
           >
             <FaGithub size={28} />
           </Link>
@@ -140,6 +142,7 @@ const Navigation = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-slate-200"
+            aria-label="Telegram"
           >
             <FaLinkedin size={28} />
           </Link>
@@ -150,6 +153,7 @@ const Navigation = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-slate-200"
+            aria-label="Telegram"
           >
             <FaInstagram size={28} />
           </Link>
